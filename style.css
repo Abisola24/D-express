@@ -515,7 +515,7 @@ footer {
   }
   
   .clientText {
-    width: 40%;
+    width: 23%;
   }
 
   .clientText h2 {
@@ -593,11 +593,14 @@ footer {
   .medicinetext li {
   
     
-    font-size: 14px;
+    font-size: 13px;
     
   }
-.doorstep{
+.doorsteptext{
   width: 80%;
+}
+.doorstep li{
+  font-size: 13px;
 }
 
 .profiletext h4{
@@ -610,7 +613,7 @@ footer {
   
   .clientText h2{
 
-    font-size: 25px;
+    font-size: 13px;
 
   }
   .clientText p{
@@ -643,6 +646,9 @@ footer {
   .footLinks {
     gap: 8rem;
   }
+  .quickLinks h5{
+    font: size 13px;
+  }
 
   .footRight {
     width: 70%;
@@ -670,3 +676,157 @@ footer {
   }
 
 }
+@media (max-width: 425px){
+  nav{
+    display: none;
+  }
+  .btn{
+    display: none;
+  }
+  .hero{
+    flex-direction: column-reverse;
+  }
+  .textside{
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .imageside{
+    width: 100% ;
+  }
+  .heroinput input {
+    width: 70%;
+  }
+
+  .heroinput button {
+    width: 25%;
+  }
+  .headerhero{
+    padding-bottom: 3rem;
+  }
+  .affiliate{
+    width: 50%;
+    margin: auto;
+    
+  }
+  .affiliate img{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+  .medicine{
+    flex-direction: column;
+    
+  }
+  .medicinetext{
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .medicineimage{
+    width: 100%;
+  }
+  .medicinetext h4{
+    width: 60%;
+  }
+.medicinetext li{
+  font-size: 17px;
+}
+  .doorstep{
+    flex-direction: column-reverse;
+    
+  }
+  .doorsteptext{
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .doorstepimg{
+    width: 100%;
+  }
+  .doorsteptext h4{
+    width: 60%;
+  }
+.doorsteptext li{
+  font-size: 17px;
+}
+  .profile{
+   flex-direction: column;
+  }
+  .profiletext{ 
+    width: 100%;
+    margin-top: 2rem
+
+  }
+  .profile img{
+    width: 100%;
+  }
+  .profiletext h4{
+    width: 60%;
+  }
+.profiletext li{
+  font-size: 17px;
+}
+.client{
+  flex-direction: column;
+}
+.clientImage{
+  width: 100%;
+  
+}
+.clientText{
+  width: 80%;
+  margin: auto;
+}
+.clientText p {
+  font-size: 18px;
+}
+
+.clientText h5 {
+  
+  font-size: 18px; 
+}
+.fotoer{
+  margin-top: 2rem;
+}
+.newsletter{
+  flex-direction: column;
+
+}
+.signUp{
+  width: 100%;
+
+}
+.email{
+  width: 100%;
+}
+.footLinks{
+  flex-direction: column;
+}
+.footLeft{
+  width: 100%;
+}
+.footRight{
+  width: 100%;
+  display: block;
+}
+.signUp h3{
+font-size: 24px;
+}
+.signUp p{
+font-size: 18px;
+}
+.email label{
+font-size: 18px;
+}
+.footLeft p{
+  font-size: 18px;
+}
+.quickLinks h5{
+  font-size: 18px;
+}
+
+.quickLinks p{
+  font-size: 18px;
+}
+.quickLinks{
+  margin-top: 1rem;
+}
+  }
