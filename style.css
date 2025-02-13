@@ -28,13 +28,14 @@ nav {
   gap: 2rem;
 }
 
-nav li {
+nav li a {
   color: white;
   font-family: Lato;
   font-size: 16px;
   font-weight: 500;
   line-height: 21.86px;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .btn button {
@@ -366,12 +367,13 @@ nav li {
   color: #7a7a7a;
 }
 
-.clientText h5 {
+.clientText h2 {
   font-family: Lato;
   font-size: 18px;
   font-weight: 400;
   line-height: 32.4px;
-  color: #043caa;
+  color: #000000 ;
+  text-align: center;
 }
 
 footer {
@@ -493,9 +495,7 @@ footer {
   line-height: 24.59px;
   padding-top: 4rem;
 }
-.clientText h2{
-  color: #0000;
-}
+
 
 @media (max-width: 1024px){
   .textside {
@@ -519,7 +519,7 @@ footer {
   }
 
   .clientText h2 {
-    font-size: 33px;
+    font-size: 18px;
   }
 
   .signUp{
@@ -799,6 +799,7 @@ footer {
 }
 .footLinks{
   flex-direction: column;
+  margin-top: 1rem;
 }
 .footLeft{
   width: 100%;
@@ -829,4 +830,8 @@ font-size: 18px;
 .quickLinks{
   margin-top: 1rem;
 }
+.copyright{
+  font-size: 18px;
+}
+
   }
